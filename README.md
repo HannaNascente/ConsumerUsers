@@ -1,6 +1,14 @@
-# Projeto de Interação com API de Usuários
+# 👩‍💻Projeto de Interação com API de Usuários
 
 Este projeto é uma aplicação Python que interage com uma API de usuários. Ele permite buscar todos os usuários, buscar um usuário específico pelo ID e listar os títulos dos posts de um usuário específico.
+
+
+## Funcionalidades
+
+* Buscar todos os usuários: A aplicação lista todos os usuários ao iniciar.
+* Buscar usuário por ID: O usuário pode buscar o nome e o email de um usuário específico pelo ID.
+* Listar títulos dos posts por ID do usuário: O usuário pode listar os títulos dos posts de um usuário específico pelo ID.
+
 
 ## Estrutura do Projeto
 
@@ -15,26 +23,27 @@ As dependências do projeto estão listadas no arquivo `requirements.txt`. Para 
 
 ```sh
 pip install -r src/requirements.txt
+```
 
 ## Como Executar
-
+```sh
 cd src
 python main.py
-
-## Funcionalidades
-* Buscar todos os usuários: A aplicação lista todos os usuários ao iniciar.
-* Buscar usuário por ID: O usuário pode buscar um usuário específico pelo ID.
-* Listar títulos dos posts por ID do usuário: O usuário pode listar os títulos dos posts de um usuário específico pelo ID.
+```
 
 ## Exemplo de Uso
 Ao iniciar a aplicação, a lista de usuários será exibida.
 O menu de opções será exibido:
+
+```sh
 Menu:
 1. Buscar usuário por ID
 2. Listar títulos dos posts por ID do usuário
 3. Sair
-
+```
 Escolha uma opção digitando o número correspondente e siga as instruções.
 
 ## Autor
-Este projeto foi desenvolvido por [Seu Nome].
+
+Este projeto foi desenvolvido por Hanna Karoline Nascente.
+
